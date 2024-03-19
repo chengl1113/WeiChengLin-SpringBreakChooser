@@ -126,9 +126,10 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     private fun openGoogleMaps(language: String){
         val geoUri: String = when (language) {
             "English" -> "geo:42.3497,-71.0997" // BU coordinates
-            "Spanish" -> "geo:19.4326,-99.1332" // Mexico City coordinates
-            "French" -> "geo:48.8566,2.3522"    // Paris coordinates
-            "Chinese" -> "geo:39.9042,116.4074" // Beijing coordinates
+            "Spanish" -> "geo:21.1619,-86.8515" // Cancun coordinates
+            "French" -> "geo:44.8378,-0.5792"    // Bordeux coordinates
+            "Chinese" -> "geo:22.5431,114.0579" // Shenzhen coordinates
+            "Japanese" -> "geo:35.6591,139.7006" // Shibuya coordinates
             "Korean" -> "geo:37.5665,126.9780"  // Seoul coordinates
             else -> "geo:0,0"                    // Default coordinates
         }
