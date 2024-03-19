@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeiChengLin-SpringBreakChooser</string>
+
+    <string name="spanish_button_text">Spanish</string>
+    <string name="french_button_text">French</string>
+    <string name="chinese_button_text">Chinese</string>
+    <string name="english_button_text">English</string>
+    <string name="japanese_button_text">Japanese</string>
+    <string name="edit_text_hint">Say a phrase</string>
+</resources>
